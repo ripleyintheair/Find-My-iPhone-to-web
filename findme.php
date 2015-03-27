@@ -17,6 +17,7 @@ $location = $ssm->locate($device);
 // Google
 $ch = curl_init();                                                                      
 // replace with your Google key
+// more info at https://developers.google.com/maps/documentation/geocoding/#api_key
 $key = "yourKey";
 curl_setopt_array($ch, array(
     CURLOPT_RETURNTRANSFER => 1,
